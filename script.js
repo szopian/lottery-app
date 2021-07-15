@@ -3,5 +3,5 @@ function Random() {
 }
 
 function randomValue() {
-  document.getElementById("tb").value = Random();
+  document.querySelector(".number").value = Random();
 }
