@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&family=Tourney:wght@200&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Tourney", cursive, "Alegreya Sans", sans-serif;
 }
 
 .overlay {
@@ -62,9 +64,17 @@ video {
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  background: #000;
-  color: #fff;
+  background: #ababab;
+  color: #000;
   z-index: 10;
+  font-family: "Squada One", cursive;
+  letter-spacing: 1px;
+  transition: 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.button:hover {
+  letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 600px) {
